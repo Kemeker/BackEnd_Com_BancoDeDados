@@ -1,0 +1,41 @@
+
+Configuração Inicial:
+
+Certifique-se de que você possui o JDK 17 instalado.
+Configure um projeto Maven.
+Configure um repositório Git, seja localmente ou em um serviço como o GitHub.
+
+
+Escolha do Banco de Dados:
+
+Como sugerido, escolha o PostgreSQL como seu banco de dados. Instale e configure-o de acordo com as necessidades do seu projeto.
+Criação do Modelo de Dados:
+
+Com base nos requisitos do projeto, crie um modelo de dados que represente as notificações e suas relações. Isso pode envolver a criação de tabelas no PostgreSQL.
+
+
+Implementação da API REST:
+
+Utilize o framework JAX-RS (Jersey) ou Spring Boot para implementar os endpoints da API REST.
+Defina endpoints para operações CRUD (Create, Read, Update, Delete) para manipular as notificações.
+Persistência no Banco de Dados:
+
+Utilize as classes de acesso a dados (DAOs) para interagir com o banco de dados.
+Implemente as operações de inserção, atualização, exclusão e consulta no banco de dados.
+
+
+Documentação Técnica (Diagrama UML):
+
+Crie um diagrama UML que represente a estrutura do seu sistema, incluindo as classes, seus relacionamentos e os principais métodos.
+Isso pode ser feito usando ferramentas de modelagem UML como o Lucidchart ou o draw.io.
+Testes de Requisições REST:
+
+Utilize ferramentas como o Postman ou o SoapUI para testar as requisições feitas à sua API REST.
+Certifique-se de que as operações CRUD estão funcionando conforme o esperado.
+
+
+Versionamento e Entrega:
+
+Use o Git para versionar seu código.
+Faça commits regulares e escreva mensagens de commit descritivas.
+Hospede seu repositório no GitHub ou outra plataforma de sua escolha.
